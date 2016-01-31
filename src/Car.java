@@ -50,7 +50,6 @@ public class Car {
 	 * @return string representation of object. 
 	 */
 	public String toString(){
-		// not implemented!
 		Car car = new Car("Red", 100);
 		return("Color: " + car.color + ", Speed: " + car.speed);
 	}
