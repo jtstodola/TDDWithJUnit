@@ -44,6 +44,10 @@ public class Car {
 		}
 	}
 	
+	public void decelerate(int amount) {
+		speed -= amount;
+	}
+	
 	/**
 	 * Displays the object as a string in the format
 	 * "Color: red, Speed: 100"
@@ -53,5 +57,4 @@ public class Car {
 		Car car = new Car("Red", 100);
 		return("Color: " + car.color + ", Speed: " + car.speed);
 	}
-
 }
