@@ -53,4 +53,5 @@ public class Car {
 		Car car = new Car("Red", 100);
 		return("Color: " + car.color + ", Speed: " + car.speed);
 	}
+
 }
